@@ -1,9 +1,164 @@
 body {
-    background-color: darkslateblue;
+    background-color: rgb(218, 88, 166);
 }
 
-img {
-    display: inline;
-    height: 200px;
-    width: 200px;
+#sequence img {
+    display: inline-flex;
+    height: 400px;
+    width: 400px;
+    padding: 75px;
+    border: 25px whitesmoke;
+}
+
+#sequence {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    left: 50%;
+}
+
+#sequence2 img {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    padding: 75px;
+    border: 25px whitesmoke;
+}
+
+#sads {
+    position: absolute;
+    align-content: center;
+    justify-content: center;
+    top: 10%;
+    z-index: 2;
+}
+
+#sadDog2 {
+    opacity: 1;
+}
+
+#sadDog3 {
+    opacity: 1;
+}
+
+#sadDog4 {
+    opacity: 1;
+}
+
+#sadDog2:hover {
+    opacity: 0;
+}
+
+#sadDog3:hover {
+    opacity: 0;
+}
+
+#sadDog4:hover {
+    opacity: 0;
+}
+
+#happys {
+    position: absolute;
+    align-content: center;
+    justify-content: center;
+    top: 10%;
+    z-index: 3;
+}
+
+#happyDog2 {
+    opacity: 0;
+}
+
+#happyDog3 {
+    opacity: 0;
+}
+
+#happyDog4 {
+    opacity: 0;
+}
+
+#happyDog2:hover {
+    opacity: 1;
+    transition: 2s;
+}
+
+#happyDog3:hover {
+    opacity: 1;
+    transition: 2s;
+}
+
+#happyDog4:hover {
+    opacity: 1;
+    transition: 2s;
+}
+
+#treats {
+    display: inline-flex;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    padding: 100px;
+    border: 65px whitesmoke;
+    top: 40%;
+    left: 30%;
+    z-index: 2;
+}
+
+#treats1 {
+    opacity: 0;
+}
+
+#treats2 {
+    opacity: 0;
+}
+
+#treats3 {
+    opacity: 0;
+}
+
+#sequence img:hover {
+    transform: scale(1.5);
+}
+
+#dogTreat {
+    transition: transform 2s;
+}
+
+#sadDog {
+    transition: transform 2s;
+}
+
+#dogTreat:hover {
+    transform: translateX(50px);
+}
+
+h1 {
+    display: flex;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+}
+
+#firstText {
+    opacity: 1;
+}
+
+#secondText {
+    opacity: 0;
+}
+
+#changePage {
+    height: 80px;
+    width: 100px;
+    position: relative;
+    left: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#dogTreat2 {
+    position: fixed;
+    z-index: 3;
+    pointer-events: none;
 }
