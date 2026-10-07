@@ -15,5 +15,5 @@ treat.addEventListener("click", function() {
 });
 
 pageButton.addEventListener("click", function() {
-    window.location.href = "index2.html";
+    window.location.href = "second.html";
 });
